@@ -1,0 +1,70 @@
+/* pages/details/details.wxss */
+.video_item{
+     width: 750rpx;
+     padding: 10rpx;
+}
+.video{
+     width: 100%;
+     
+}
+.video_title{
+     font-size: 28rpx;
+}
+.video_text{
+     font-size: 22rpx;
+     display: flex;
+}
+.others_img{
+     width: 250rpx;
+     float: left;
+     margin: 30rpx 0 0 40rpx;
+     border-radius: 10rpx;
+}
+.others_details{
+     width: 450rpx;
+     float: right;
+}
+.others{
+     width: 100%;
+     height: 200rpx;
+     display: flex;
+     justify-content:space-between;
+}
+.others_title{
+     font-size: 28rpx;
+}
+.others_user{
+     font-size: 24rpx;
+     display: flex;
+}
+.touxiang{
+     float: left;
+}
+.touxiang_img{
+     width: 50rpx;
+     border-radius: 50%;
+     margin: 30rpx 0 0 30rpx;
+}
+.use{
+     font-size: 25rpx;
+     display: flex;
+     padding-right: 15rpx;
+     justify-content: space-between;
+}
+.use_name{
+     font-size: 24rpx;
+}
+.comment{
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 2rpx solid #cccccc;
+}
+.use_com{
+     font-size: 26rpx;
+     margin-bottom: 20rpx;
+     margin-top: 10rpx;
+}
+.right{
+     width: 650rpx;
+     float: right;
+}

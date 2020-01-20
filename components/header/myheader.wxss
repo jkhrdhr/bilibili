@@ -1,0 +1,45 @@
+.myheader{
+     display:flex;
+     align-items: center;
+     padding: 10rpx;
+     background-color: white;
+}
+.logo{
+     flex: 7;
+     padding-left: 20rpx;
+}
+.logo_image{
+     width: 140rpx;
+     height: 60rpx;
+}
+.search{
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.search_image{
+     width: 50rpx;
+     height: 50rpx;
+}
+.user{
+     flex: 2;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.user_image{
+     width: 50rpx;
+     height: 50rpx;
+}
+.down{
+     flex: 3;
+     font-size: 27rpx;
+     background-color:#ffc6c8;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     border-radius: 10rpx;
+     padding: 7rpx;
+}

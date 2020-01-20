@@ -1,0 +1,21 @@
+<!--components/header/myheader.wxml-->
+<view class="myheader">
+     <!-- log -->
+     <navigator class="logo">
+          <image class="logo_image" src="../../icons/logo.png" />
+     </navigator>
+     <!-- 搜索 -->
+     <view class="search">
+          <image class="search_image" src="../../icons/search.png" mode="aspectFit|aspectFill|widthFix"
+               lazy-load="false" binderror="" bindload="" />
+     </view>
+     <!-- 用户 -->
+     <view class="user">
+          <image class="user_image" src="../../icons/user.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false"
+               binderror="" bindload="" />
+     </view>
+     <!-- 下载按钮 -->
+     <view class="down">
+          App下载
+     </view>
+</view>

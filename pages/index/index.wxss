@@ -1,0 +1,58 @@
+.nav{
+     white-space: nowrap;
+     padding: 2rpx 0;
+}
+.nav_item{
+     padding: 20rpx 45rpx;
+     font-size: 30rpx;
+     display: inline-block;
+}
+.nav_item.active{
+     border-bottom: 4rpx solid red;
+}
+.lunbo_image{
+     width: 100%;
+}
+.lb{
+     /* height: auto; */
+     padding: 5rpx;
+     height: 218rpx;
+}
+/* 视频列表 */
+.video_wrap{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+.video_item{
+     width: 46%;
+     padding: 10rpx 0;
+     margin: 0 10rpx;
+}
+.video_image_img{
+     /* width: 330rpx; */
+     width: 100%;
+     border-radius: 15rpx;
+
+}
+.video_image{
+     position: relative;
+}
+.video_image_left{
+     position: absolute;
+     left:5rpx;
+     bottom: 10rpx;
+     font-size: 22rpx;
+     color: white;
+}
+.video_image_right{
+     position: absolute;
+     right: 5rpx;
+     bottom: 10rpx;
+     font-size: 22rpx;
+     color: white;
+
+}
+.video_title{
+     font-size: 25rpx;
+}
